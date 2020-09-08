@@ -21,6 +21,7 @@ class StoryListView extends Component {
 
   // Component Functions
   _handleStoryItemPress = (item, index) => {
+    
     const { stories } = this.props;
 
     this.setState({ selectedStory: item });
