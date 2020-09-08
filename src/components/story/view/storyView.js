@@ -48,14 +48,6 @@ class StoryListView extends Component {
 
     return (
       <Fragment>
-        <View style={styles.storyListContainer}>
-          <StoryList
-            handleStoryItemPress={this._handleStoryItemPress}
-            stories={stories}
-            unPressedBorderColor={unPressedBorderColor}
-            pressedBorderColor={pressedBorderColor}
-          />
-        </View>
         <Modal
           style={styles.modal}
           isOpen={isModalOpen}
